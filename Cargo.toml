@@ -1,0 +1,16 @@
+[package]
+name = "zmap-tauri"
+version = "0.1.0"
+edition = "2021"
+description = "A simulation-grade interactive map engine for Tauri desktop apps, animated objects, dynamic overlays, custom tooltips, and rich visual effects via Svelte."
+license = "Apache-2.0"
+repository = "https://github.com/ZAL-Analytics/zmap-tauri"
+homepage = "https://github.com/ZAL-Analytics/zmap-tauri"
+documentation = "https://docs.rs/zmap-tauri"
+keywords = ["tauri", "map", "simulation", "svelte", "interactive"]
+categories = ["gui", "visualization", "game-engines"]
+readme = "README.md"
+exclude = ["publish.sh"]
+
+[lib]
+name = "zmap_tauri"
